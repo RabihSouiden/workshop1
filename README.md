@@ -16,7 +16,7 @@ git clone https://github.com/RabihSouiden/workshop1
 2. Open `Script_DB_DDL` to see the Script DLL
 
 ## Documentation
-- Open the [document](https://github.com/RabihSouiden/workshop1/blob/main/Informe_BD.docx)
+- Open the [document](https://github.com/RabihSouiden/workshop1/blob/main/Informe/Informe_BD.docx)
 
 ### Note
 - En la carpeta "Modelo Lógico"se encuentran las operaciones DML y DML respondidas a la próblematica identificada.
