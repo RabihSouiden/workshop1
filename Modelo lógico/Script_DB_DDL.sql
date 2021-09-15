@@ -102,6 +102,28 @@ CREATE TABLE "USUARIO" (
 
 CREATE INDEX "USUARIO_PK" ON "USUARIO" ("num_documento");
 
+CREATE TABLE "MASCOTA_AU" (
+  "id_mascota" SERIAL NOT NULL, 
+  "nombre" VARCHAR(255), 
+  "edad" INTEGER DEFAULT 0, 
+  "especie" VARCHAR(255), 
+  "tamaño" INTEGER DEFAULT 0, 
+  "sexo" INTEGER DEFAULT 0, 
+  "potencialmente_peligroso" BOOLEAN DEFAULT E'0', 
+  "fotografia_medica" TEXT, 
+  "microchip" VARCHAR(255),
+	"event_type" VARCHAR(255),
+	"event_date" VARCHAR(255),
+  PRIMARY KEY ("id_mascota")
+);
+
+CREATE TABLE "MICROCHIPS_GOALS" (
+	"id" serial,
+  "init_date" DATE, 
+  "end_date" DATE , 
+  "count" INTEGER,
+  PRIMARY KEY ("id")
+);
 
 --------------------------------------------------------------------------------------
 ----------------------------  FOREIGN KEY --------------------------------------------
